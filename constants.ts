@@ -26,7 +26,7 @@ enum SearchQueryParams {
 //name secret from kms
 const TOKEN_HASH_SECRET_NAME = "XXXXXX"; 
 //Expiration JWT
-const EXPIRES_IN = "900min";
+const EXPIRES_IN = "900day";
 export {
   SearchQueryParams,
   EXPIRES_IN,
